@@ -54,3 +54,23 @@ export const sizes = () => {
     );
 };
 
+export const disabled = () => {
+    return (
+        <div css={buttonWrapper}>
+            <div>
+                <Button disabled>PRIMARY</Button>
+            </div>
+            <div>
+                <Button disabled theme="secondary">
+                    SECONDARY
+                </Button>
+            </div>
+            <div>
+                <Button disabled theme="tertiary">
+                    TERTIARY
+                </Button>
+            </div>
+        </div>
+    )
+}
+
