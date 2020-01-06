@@ -3,7 +3,7 @@ import { jsx, css } from "@emotion/core";
 import Icon, {iconTypes} from './Icon';
 
 export default {
-    component: 'Icon',
+    component: Icon,
     title: 'components|Icon'
 }
 
